@@ -1,0 +1,272 @@
+
+
+
+.center {
+    text-align: center;
+}
+
+.massageMain {
+    text-align: center;
+}
+
+
+/* massage component */ 
+.massageSurround {
+
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.supperSurround {
+    display:flex;
+
+}
+.massage {
+}
+.massageComponent ,  .massageComponent3, .massageComponent4 , .massageComponent5 ,.massageComponent6 , .massageComponent7   {
+    border:1px solid black;
+    text-align: center;
+    border-radius:25px;
+    transition-duration:670ms;
+    transition-property: all;
+    width:800px;
+    position:relative;
+    overflow:hidden;
+    height:100px;
+    margin-top:100px;
+
+  
+}
+
+.massageComponent2:hover, .massageComponent2:hover + massageComponent {
+    background-color:beige;
+    -webkit-box-shadow: 5px 4px 23px 3px rgba(0,0,0,0.8); 
+    box-shadow: 5px 4px 23px 3px rgba(0,0,0,0.8);
+    border:1.5px solid black;
+    height:800px
+
+}
+.massageComponent2 {
+    border:1px solid black;
+    text-align: center;
+    border-radius:25px;
+    transition-duration:670ms;
+    transition-property: all;
+    width:800px;
+    position:relative;
+    overflow:hidden;
+    height:100px;
+    margin-top:100px;
+
+}
+
+.massageComponent:hover {
+    background-color:beige;
+    -webkit-box-shadow: 5px 4px 23px 3px rgba(0,0,0,0.8); 
+    box-shadow: 5px 4px 23px 3px rgba(0,0,0,0.8);
+    border:1.5px solid black;
+    height:800px
+
+}
+.massageComponent:hover ~ .massageComponent2 {
+    background-color:beige;
+    -webkit-box-shadow: 5px 4px 23px 3px rgba(0,0,0,0.8); 
+    box-shadow: 5px 4px 23px 3px rgba(0,0,0,0.8);
+    border:1.5px solid black;
+    height:800px
+  }
+
+  .massageComponent:hover {
+    background-color:beige;
+    -webkit-box-shadow: 5px 4px 23px 3px rgba(0,0,0,0.8); 
+    box-shadow: 5px 4px 23px 3px rgba(0,0,0,0.8);
+    border:1.5px solid black;
+    height:800px
+
+}
+.massageComponent3:hover ~ .massageComponent5 {
+    background-color:beige;
+    -webkit-box-shadow: 5px 4px 23px 3px rgba(0,0,0,0.8); 
+    box-shadow: 5px 4px 23px 3px rgba(0,0,0,0.8);
+    border:1.5px solid black;
+    height:800px
+  }
+  
+.massageComponent3:hover {
+
+    background-color:beige;
+    -webkit-box-shadow: 5px 4px 23px 3px rgba(0,0,0,0.8); 
+    box-shadow: 5px 4px 23px 3px rgba(0,0,0,0.8);
+    border:1.5px solid black;
+    height:800px
+}
+
+.massageComponent5:hover {
+
+    background-color:beige;
+    -webkit-box-shadow: 5px 4px 23px 3px rgba(0,0,0,0.8); 
+    box-shadow: 5px 4px 23px 3px rgba(0,0,0,0.8);
+    border:1.5px solid black;
+    height:800px
+}
+
+.massageComponent6:hover ~ .massageComponent7 {
+    background-color:beige;
+    -webkit-box-shadow: 5px 4px 23px 3px rgba(0,0,0,0.8); 
+    box-shadow: 5px 4px 23px 3px rgba(0,0,0,0.8);
+    border:1.5px solid black;
+    height:800px
+  }
+  
+.massageComponent6:hover {
+
+    background-color:beige;
+    -webkit-box-shadow: 5px 4px 23px 3px rgba(0,0,0,0.8); 
+    box-shadow: 5px 4px 23px 3px rgba(0,0,0,0.8);
+    border:1.5px solid black;
+    height:800px
+}
+
+.massageComponent7:hover {
+
+    background-color:beige;
+    -webkit-box-shadow: 5px 4px 23px 3px rgba(0,0,0,0.8); 
+    box-shadow: 5px 4px 23px 3px rgba(0,0,0,0.8);
+    border:1.5px solid black;
+    height:800px
+}
+
+
+
+/*.massageComponent:hover  , .massageComponent2:hover , .massageComponent3:hover , .massageComponent4:hover  , .massageComponent5:hover ,.massageComponent6:hover , .massageComponent7:hover   {
+    background-color:beige;
+    -webkit-box-shadow: 5px 4px 23px 3px rgba(0,0,0,0.8); 
+    box-shadow: 5px 4px 23px 3px rgba(0,0,0,0.8);
+    border:1.5px solid black;
+    height:800px; 
+}
+ */
+    
+#jadeMassage {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.paket {
+    border:solid 1px black;
+    width:300px;
+    height:auto;
+    border-radius: 20px;
+    transition-duration:250ms;
+    transition-property: all;
+    text-align: center;
+}
+.paket:hover {
+    background-color:lightcoral;
+    -webkit-box-shadow: 5px 4px 23px 3px rgba(0,0,0,0.8); 
+    box-shadow: 5px 4px 23px 3px rgba(0,0,0,0.8);
+
+}
+.textCenter {
+    text-align: center;
+    margin-top: 100px;
+}
+.massagePaket {
+    display:flex;
+    gap:175px;
+    justify-content: center;
+}
+
+
+
+.massagePaketTitle {
+
+}
+
+.antalBehandlingar {
+
+}
+
+.paketBeskrivning {
+
+}
+
+
+
+.paketPris {
+
+}
+
+.boka {
+
+}
+
+
+
+
+/* pheonix spa ritual */
+#massageSurround {
+    text-align: center;
+}
+
+.massage{
+ font-size: 60px;
+}
+
+
+.massageTitle {
+
+}
+
+.treeview-ul {
+    margin: 0 1.5em;
+    text-align: left;
+  }
+
+
+
+.list {
+   margin:0px;
+}
+
+.list:last-child{
+    margin-left:-97.2px;
+
+}
+
+
+.möhippa {
+    margin-left:100px;
+    margin-top:70px;
+}
+
+.mail{
+    margin-left:100px;
+}
+
+.boka {
+	box-shadow: 0px 1px 0px 0px #1c1b18;
+	background-color:transparent;
+	border-radius:19px;
+	border:2px solid #333029;
+	display:inline-block;
+	cursor:pointer;
+	color:#505739;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:10px 41px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+    align-items: center;
+}
+.boka:hover {
+    background-color:white;
+}
+.boka:active {
+	position:relative;
+	top:1px;
+}

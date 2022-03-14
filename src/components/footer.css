@@ -1,0 +1,21 @@
+footer {
+    display:flex;
+    background-color: antiquewhite;
+    margin-top:270px;
+    font-size:0.5em;
+    align-items: center;
+    width: 100%;
+
+
+}
+
+.footersurround {
+    margin-left:15%;
+    display:flex;
+    gap:50px;
+    
+}
+
+.footertext{
+    font-size:30px;
+}

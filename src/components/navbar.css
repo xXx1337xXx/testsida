@@ -1,0 +1,54 @@
+.navbar {
+ display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.3);       
+  
+}
+
+.navItem{
+ 
+  border-left:0.3px solid rgb(133, 131, 131);
+  border-right:0.3px solid rgb(133, 131, 131);
+  font-size: 25px;
+  text-decoration: none;
+}
+.navLeft{
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+.navRight {
+    font-size: 14px;
+  width:63%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  margin-right:8px;
+}
+#mandorlaLogo {
+
+
+  
+}
+#mandorla10 {
+
+
+}
+
+#sverige {
+  position:absolute;
+  height:10px;
+  width:20px;
+  left:1800px;
+  margin-top:-145px;
+}
+
+#england {
+  position:absolute;
+  height:10px;
+  width:20px;
+  left:1840px;
+  margin-top:-145px;
+}

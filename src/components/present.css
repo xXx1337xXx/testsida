@@ -1,0 +1,52 @@
+.title {
+    display:flex;
+    
+    justify-content: space-around;
+    height:100px;
+}
+
+.card {
+    border:1px solid black;
+    width: 300px;
+    height:400px;
+    border-radius: 25px;
+    text-align:center;
+    margin-top:100px;
+    position:relative;
+
+}
+
+.cardContainer {
+    display:flex;
+    justify-content:space-evenly;
+
+}
+
+.bokapresent {
+    bottom:50px;
+    right:10px;
+    width: 270px;
+    box-shadow: 0px 1px 0px 0px #1c1b18;
+	background-color:transparent;
+	border-radius:19px;
+	border:2px solid #333029;
+	display:inline-block;
+	cursor:pointer;
+	color:#505739;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:10px 41px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.bokapresent:hover {
+    background-color:lightgray;
+}
+.bokapresent:active {
+	top:10px;
+}
+.info {
+    text-align: center;
+    margin-top:100px;
+}

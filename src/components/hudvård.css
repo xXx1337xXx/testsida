@@ -1,0 +1,136 @@
+* p {
+    font-size:20px;  
+}
+.navigationsticky {
+    position:sticky;
+    top:120px;
+    width:30px;
+    overflow:hidden;
+    height:280px;
+    background-color: beige;
+    transition-duration:70ms;
+    transition-property: all;
+    border-radius:0px 25px 25px 0px ;
+    padding:5px;
+}
+.navigationsticky h2 {
+    transform: rotate(90deg);
+    margin-top:60px;
+
+}
+
+.navigationsticky a {
+    visibility: hidden;
+    padding-top:20px;
+    font-size:18px;
+
+}
+.navigationsticky:hover {
+    background-color: ;
+    width:300px;
+
+}
+.navigationsticky:hover a {
+
+    visibility: visible;
+
+}
+.navigationsticky:hover h2 {
+display:none;}
+
+
+#up {
+    margin-top:-260px;
+}
+
+.card {
+    height:auto;
+}
+.text {
+    font-size:1.25em;
+    font-weight:900px;
+}
+
+.surround {
+    display:flex;
+    justify-content: space-around;
+}
+
+.massage {
+    margin-left:100px;
+    margin-bottom:30px;
+    text-align: center;
+    margin-top:0px;
+}
+
+.massageTitle {
+    margin-left:65px;
+    text-align: center;
+
+}
+
+.massageInfo {
+    margin-left:70px;
+    text-align: center;
+
+}
+
+.behandlingpris {
+  border:1px solid black;
+  border-radius:14px;
+  width :400px;
+    margin-left:40%;
+    margin-right:auto;
+}
+
+.behandling {
+text-align: center;
+    margin-top:50px;
+}
+.pris {
+    margin-left:70px;
+}
+
+.prislapp {
+    margin-left:70px;
+
+}
+.prislapp{
+    margin-left:70px;
+
+
+
+}
+
+.pris {
+    margin-left:100px;
+}
+.tilläg{
+    margin-left:30px;
+
+}
+
+#boka {
+    box-shadow: 0px 1px 0px 0px #1c1b18;
+	background-color:transparent;
+	border-radius:19px;
+	border:2px solid #333029;
+	display:inline-block;
+	cursor:pointer;
+	color:#505739;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:10px 41px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+
+}
+
+.hudvårdcenter {
+    margin-left:32%;
+}
+
+.left {
+    margin-left:-60px;
+}
