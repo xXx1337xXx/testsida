@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/testsida/static/css/main.1f2b4959.css",
+    "main.js": "/testsida/static/js/main.99cc0423.js",
+    "static/js/787.28cb0dcd.chunk.js": "/testsida/static/js/787.28cb0dcd.chunk.js",
+    "static/media/ryggmassage.jpg": "/testsida/static/media/ryggmassage.4386659cb3403adb6a1e.jpg",
+    "index.html": "/testsida/index.html",
+    "main.1f2b4959.css.map": "/testsida/static/css/main.1f2b4959.css.map",
+    "main.99cc0423.js.map": "/testsida/static/js/main.99cc0423.js.map",
+    "787.28cb0dcd.chunk.js.map": "/testsida/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f2b4959.css",
+    "static/js/main.99cc0423.js"
+  ]
+}
